@@ -2,9 +2,9 @@ server:
   port: ${PORT:8080}
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/KazRent1
-    username: postgres
-    password: erke
+    url: jdbc:postgresql://dpg-cpg9b9mct0pc73d9sdf0-a:5432/kaz_rent_db
+    username: admin_kaz_rent_db
+    password: GPhH5wYz6BnNOIRSMEpdCDQvEvAFyWSM
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
